@@ -16,7 +16,7 @@
       <nav class="navbar is-fixed-top" role="navigation" aria-label="main navigation">
         <div class="navbar-brand">
           <a class="navbar-item" href="/">
-            <h1>Naochan's website</h1>
+            <h1>Naochan's website(インポートできていません)</h1>
           </a>
           <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
             <span aria-hidden="true"></span>
@@ -80,7 +80,7 @@
     <footer class="footer" id="_footer">
       <div class="box">
         <p class="subtitle">
-          Naochan's website
+          Naochan's website(インポートできていません)
         </p>
         <p>(this site useing <a href="https://bulma.io">Bulma</a>)</p>
         <small>&copy; 2024 Naochan83275</small>
@@ -88,11 +88,12 @@
     </footer>
     <script src="/easteregg.js"></script>
     <script type="module">
-      import header from "https://naochan83275.github.io/bata/include/import.js?type=html&path=https://naochan83275.github.io/bata/include/header.html";
-      document.getElementById('_header').innerHTML = header;
-      import footer from "https://naochan83275.github.io/bata/include/import.js?type=html&path=https://naochan83275.github.io/bata/include/footer.html";
-      document.getElementById('_footer').innerHTML = footer;
+      import text from "https://naochan83275.github.io/bata/include/import.js?type=html&path=https://naochan83275.github.io/bata/include/header.html";
+      document.getElementById('_header').innerHTML =text;
     </script>
-</script>
+    <script>
+      import text from "https://naochan83275.github.io/bata/include/import.js?type=html&path=https://naochan83275.github.io/bata/include/footer.html";
+      document.getElementById('_footer').innerHTML = text;
+    </script>
   </body>
 </html>
