@@ -2,6 +2,6 @@ media: /
 content:
   - name: settings
     label: トップページ
-    path: /
+    path: index.html
     type: file
     list: true
