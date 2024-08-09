@@ -8,3 +8,15 @@ content:
     label: メインスクリプト
     path: script.js
     type: file
+  - name: settings3
+    label: イースターエッグスクリプト
+    path: easteregg.js
+    type: file
+  - name: settings4
+    label: ヘッダー
+    path: include/header.js
+    type: file
+  - name: settings5
+    label: フッター
+    path: include/footer.js
+    type: file
