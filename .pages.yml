@@ -3,5 +3,4 @@ content:
   - name: settings
     label: トップページ
     path: index.html
-    type: file
-    list: true
+    type: code
