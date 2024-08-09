@@ -3,5 +3,5 @@ content:
   - name: images
     label: Images
     path: /
-    type: collection
+    type: file
     list: true
