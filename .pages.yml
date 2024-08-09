@@ -1,10 +1,10 @@
 media: /
 content:
-  - name: settings
+  - name: settings1
     label: トップページ
     path: index.html
     type: file
-  - name: settings
+  - name: settings2
     label: メインスクリプト
     path: script.js
     type: file
