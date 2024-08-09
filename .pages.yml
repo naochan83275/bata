@@ -1,0 +1,7 @@
+media: /
+content:
+  - name: images
+    label: Images
+    path: /
+    type: image
+    list: true
