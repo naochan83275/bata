@@ -3,7 +3,7 @@ content:
   - name: settings
     label: トップページ
     path: index.html
-    type: text
+    type: file
   - name: settings
     label: メインスクリプト
     path: script.js
