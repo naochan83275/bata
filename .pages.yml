@@ -1,7 +1,7 @@
 media: /
 content:
-  - name: images
-    label: Images
+  - name: settings
+    label: トップページ
     path: /
     type: file
     list: true
