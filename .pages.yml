@@ -3,4 +3,8 @@ content:
   - name: settings
     label: トップページ
     path: index.html
-    type: code
+    type: text
+  - name: settings
+    label: メインスクリプト
+    path: script.js
+    type: file
