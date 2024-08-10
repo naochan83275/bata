@@ -18,3 +18,9 @@ $(document).ready(function() {
 
   });
 });
+
+if(~document.cookie.indexOf('accessed')){
+}else{
+  document.cookie('access=accessed');
+  document.getElementById('loading_frame').style.display = flex;
+}
